@@ -1,0 +1,41 @@
+.wrapper-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app{
+    margin: 5em auto;
+    max-width: 800px;
+    gap: 50px;
+}
+
+.app, .app-top-form{
+    display: flex; 
+}
+
+.app{
+    flex-direction: column;
+}
+
+#app__title, #NullPosts{
+    text-align: center;
+}
+
+.app-top-form{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-middle__accounts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}

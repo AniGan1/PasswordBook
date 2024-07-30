@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>PasswordBook</title>
+</head>
+<body>
+    <div class="wrapper-container">
+        <div class="app">
+            <h1 id="app__title">PasswordBook</h1>
+            <div class="app-top">
+                <form action="" class="app-top-form" id="app-top-form">
+                    <label for="app-top-form-select">
+                        <span>Выберите платформу</span>
+                        <select  id="app-top-form-select">
+                            <option value="Вконтакте">Вконтакте</option>
+                            <option value="Telegram">Telegram</option>
+                        </select>
+                    </label>
+                    
+                    <label for="">
+                        <span>Логин:</span>
+                        <input type="text"  id="app-top-form-log" placeholder="Введите логин"> 
+                    </label>
+
+                    <label for="">
+                        <span>Пароль:</span>
+                        <input type="password"  id="app-top-form-pass"placeholder="Введите пароль">
+                    </label>
+    
+                    <input type="submit" value="Добавить">
+                    <input type="reset" value="Очистить поля">
+                </form>
+            </div>
+
+            <div class="app-middle">
+                <form action="" class="app-middle-form">
+                    <label for="app-middle-form-select">
+                        <span>Выберите платформу</span>
+                        <select name="app-middle-form-select" id="app-middle-form-select">
+                            <option value="Вконтакте">Вконтакте</option>
+                            <option value="Telegram">Telegram</option>
+                        </select>
+                    </label>
+                </form>
+
+                <div class="app-middle__accounts" id="app-middle__accounts">
+                    <h2 id="NullPosts">Нет записей? Добавь!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
